@@ -15,21 +15,21 @@
 ### Events
 > ### Player Join Event ``on_player_join``
 > ``def on_player_join():``
-<br>
+> <br>
 > Called when a player joins the server.
-<br>
-<br>
+> <br>
+> <br>
 > **Event-Values:**
-<br>
+> <br>
 > `player_name` Example: ``def on_player_join(player_name):``
 
 ### Effects
 > ### Broadcast ``broadcastMessage``
 > ``broadcastMessage()``
-<br>
+> <br>
 > Sends a message to all players on the server.
-<br>
-<br>
+> <br>
+> <br>
 > **Objects:**
-<br>
+> <br>
 > ``any string`` Example: ``broadcastMessage("Hello World!")``
