@@ -6,3 +6,12 @@ prefix: PyScriptLoader
 load: STARTUP
 authors: [BridgerSilk]
 description: Use custom python scripts on your server!
+commands:
+  pyscriptloader:
+    description: Reload the Python script
+    usage: /pyscriptloader
+    permission: pyscriptloader.reload
+permissions:
+  pyscriptloader.reload:
+    description: Permission to reload Python scripts
+    default: op
