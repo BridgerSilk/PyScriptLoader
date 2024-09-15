@@ -1,0 +1,1 @@
+- add more info on how to use variables in strings (broadcast/playerjoin) using .format

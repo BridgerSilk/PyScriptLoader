@@ -25,6 +25,7 @@ public final class PyScriptLoader extends JavaPlugin {
 
         // Register event listener
         getServer().getPluginManager().registerEvents(new PlayerJoinListener(this), this);
+        getServer().getPluginManager().registerEvents(new BlockBreakListener(this), this);
 
         // Register command for reloading the script
         this.getCommand("pyscriptloader").setExecutor(new ReloadPythonCommand(this));
